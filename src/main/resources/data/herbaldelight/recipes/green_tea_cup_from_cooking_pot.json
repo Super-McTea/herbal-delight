@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    [
+      {"item": "herbaldelight:green_tea_leaf"},
+      {"item": "minecraft:wheat_seeds"}
+    ]
+  ],
+  "result": {
+    "item": "herbaldelight:green_tea_cup"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingtime": 200
+}

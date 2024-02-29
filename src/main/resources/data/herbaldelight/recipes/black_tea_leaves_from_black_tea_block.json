@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "herbaldelight:black_tea_block"
+    }
+  ],
+  "result": {
+    "item": "herbaldelight:black_tea_leaf",
+    "count": 9
+  }
+}

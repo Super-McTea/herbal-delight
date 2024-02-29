@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "herbaldelight:block/black_tea_block"
+  }
+}
