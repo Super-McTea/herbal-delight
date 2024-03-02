@@ -3,13 +3,19 @@
 
   "item.herbaldelight.green_tea_cup": "Cup of Green Tea",
   "item.herbaldelight.green_tea_leaf": "Green Tea Leaves",
+  "item.herbaldelight.green_tea_seeds": "Green Tea Plant Seeds",
 
   "item.herbaldelight.black_tea_cup": "Cup of Black Tea",
   "item.herbaldelight.black_tea_leaf": "Black Tea Leaves",
+  "item.herbaldelight.black_tea_seeds": "Black Tea Plant Seeds",
 
+  "item.herbaldelight.hibiscus_tea_cup": "Cup of Hibiscus Tea",
+  "item.herbaldelight.hibiscus_tea_leaf": "Hibiscus Flowers",
+  "item.herbaldelight.hibiscus_tea_seeds": "Hibiscus Seeds",
 
   "block.herbaldelight.green_tea_block": "Block of Green Tea Leaves",
   "block.herbaldelight.black_tea_block": "Block of Black Tea Leaves",
+  "block.herbaldelight.hibiscus_tea_block": "Block of Hibiscus Flowers",
 
   "itemgroup.tea": "Herbal Delight - Working Title!!!"
 }

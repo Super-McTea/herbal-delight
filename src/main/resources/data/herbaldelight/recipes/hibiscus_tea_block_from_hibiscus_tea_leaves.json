@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "herbaldelight:hibiscus_tea_leaf"
+    }
+  },
+  "result": {
+    "item": "herbaldelight:hibiscus_tea_block",
+    "count": 1
+  }
+}

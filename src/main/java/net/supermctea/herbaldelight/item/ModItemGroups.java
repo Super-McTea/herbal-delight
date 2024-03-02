@@ -1,6 +1,7 @@
 package net.supermctea.herbaldelight.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -21,13 +22,21 @@ public class ModItemGroups {
 
                         entries.add(ModItems.GREEN_TEA_CUP);
                         entries.add(ModItems.BLACK_TEA_CUP);
+                        entries.add(ModItems.HIBISCUS_TEA_CUP);
+
                         entries.add(ModItems.GREEN_TEA_LEAF);
                         entries.add(ModItems.BLACK_TEA_LEAF);
+                        entries.add(ModItems.HIBISCUS_TEA_LEAF);
 
-                        entries.add(Items.ANCIENT_DEBRIS);
+                        entries.add(Items.DIAMOND);
 
                         entries.add(ModBlocks.GREEN_TEA_BLOCK);
                         entries.add(ModBlocks.BLACK_TEA_BLOCK);
+                        entries.add(ModBlocks.HIBISCUS_TEA_BLOCK);
+
+                        entries.add(ModItems.GREEN_TEA_SEEDS);
+                        entries.add(ModItems.BLACK_TEA_SEEDS);
+                        entries.add(ModItems.HIBISCUS_TEA_SEEDS);
 
                     })).build());
     public static void registerItemGroups() {

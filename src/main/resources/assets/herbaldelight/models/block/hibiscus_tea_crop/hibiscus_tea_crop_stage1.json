@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/stem_growth1",
+  "textures": {
+    "stem": "herbaldelight:block/hibiscus_tea_crop"
+  }
+}
