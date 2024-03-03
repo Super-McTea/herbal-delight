@@ -19,24 +19,40 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.GREEN_TEA_CUP)).entries(((displayContext, entries) -> {
 
                         entries.add(ModItems.SMART_SPECS);
-
+                        // Food Items
                         entries.add(ModItems.GREEN_TEA_CUP);
                         entries.add(ModItems.BLACK_TEA_CUP);
                         entries.add(ModItems.HIBISCUS_TEA_CUP);
 
+                        // Crop Seeds
+                        entries.add(ModItems.GREEN_TEA_SEEDS);
+                        entries.add(ModItems.BLACK_TEA_SEEDS);
+                        entries.add(ModItems.HIBISCUS_TEA_SEEDS);
+
+                        // Raw Leaves (from crop)
                         entries.add(ModItems.GREEN_TEA_LEAF);
                         entries.add(ModItems.BLACK_TEA_LEAF);
                         entries.add(ModItems.HIBISCUS_TEA_LEAF);
 
-                        entries.add(Items.DIAMOND);
+                        // Dried Leaves
+                        entries.add(ModItems.DRIED_GREEN_TEA_LEAF);
+                        entries.add(ModItems.DRIED_BLACK_TEA_LEAF);
+                        entries.add(ModItems.DRIED_HIBISCUS_TEA_LEAF);
 
+                        // Raw Leaf Blocks
                         entries.add(ModBlocks.GREEN_TEA_BLOCK);
                         entries.add(ModBlocks.BLACK_TEA_BLOCK);
                         entries.add(ModBlocks.HIBISCUS_TEA_BLOCK);
 
-                        entries.add(ModItems.GREEN_TEA_SEEDS);
-                        entries.add(ModItems.BLACK_TEA_SEEDS);
-                        entries.add(ModItems.HIBISCUS_TEA_SEEDS);
+                        // Dried Leaf Blocks (to bake)
+                        entries.add(ModBlocks.DRIED_GREEN_TEA_BLOCK);
+                        entries.add(ModBlocks.DRIED_BLACK_TEA_BLOCK);
+                        entries.add(ModBlocks.DRIED_HIBISCUS_TEA_BLOCK);
+
+                        // Baked Leaf Blocks
+                        entries.add(ModBlocks.BAKED_GREEN_TEA_BLOCK);
+                        entries.add(ModBlocks.BAKED_BLACK_TEA_BLOCK);
+                        entries.add(ModBlocks.BAKED_HIBISCUS_TEA_BLOCK);
 
                     })).build());
     public static void registerItemGroups() {

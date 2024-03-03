@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "baked_hibiscus_tea",
+  "ingredient": {
+    "item": "herbaldelight:dried_hibiscus_tea_block"
+  },
+  "result": "herbaldelight:baked_hibiscus_tea_block"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "baked_green_tea",
+  "ingredient": {
+    "item": "herbaldelight:dried_green_tea_block"
+  },
+  "result": "herbaldelight:baked_green_tea_block"
+}

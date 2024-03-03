@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "herbaldelight:dried_green_tea_block"
+    }
+  ],
+  "result": {
+    "item": "herbaldelight:dried_green_tea_leaf",
+    "count": 9
+  }
+}

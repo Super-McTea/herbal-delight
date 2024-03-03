@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "herbaldelight:green_tea_leaf"
+  },
+  "result": "herbaldelight:dried_green_tea_leaf"
+}

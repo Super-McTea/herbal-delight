@@ -6,14 +6,14 @@
       "item": "minecraft:sugar"
     },
     {
-      "item": "herbaldelight:black_tea_leaf"
+      "item": "herbaldelight:dried_hibiscus_tea_leaf"
     },
     {
-      "item": "herbaldelight:black_tea_leaf"
+      "tag": "c:milk"
     }
   ],
   "result": {
-    "item": "herbaldelight:black_tea_cup"
+    "item": "herbaldelight:hibiscus_tea_cup"
   },
   "container": {
     "item": "minecraft:glass_bottle"

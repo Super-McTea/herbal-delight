@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "herbaldelight:block/baked_hibiscus_tea_block"
+  }
+}

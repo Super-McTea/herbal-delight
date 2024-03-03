@@ -27,6 +27,10 @@ public class HerbalDelight implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.GREEN_TEA_BLOCK, 30, 60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.HIBISCUS_TEA_BLOCK, 30, 60);
 
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DRIED_BLACK_TEA_BLOCK, 30, 60);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DRIED_GREEN_TEA_BLOCK, 30, 60);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DRIED_HIBISCUS_TEA_BLOCK, 30, 60);
+
 		CompostingChanceRegistry.INSTANCE.add(ModItems.BLACK_TEA_SEEDS, 0.3f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GREEN_TEA_SEEDS, 0.3f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.HIBISCUS_TEA_SEEDS, 0.3f);
@@ -35,6 +39,8 @@ public class HerbalDelight implements ModInitializer {
 		CompostingChanceRegistry.INSTANCE.add(ModItems.GREEN_TEA_LEAF, 0.65f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.HIBISCUS_TEA_LEAF, 0.65f);
 
-		// TODO: add dried leaves to the composting registry with a value of 0.85
+		CompostingChanceRegistry.INSTANCE.add(ModItems.DRIED_BLACK_TEA_LEAF, 0.85f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.DRIED_GREEN_TEA_LEAF, 0.85f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.DRIED_HIBISCUS_TEA_LEAF, 0.85f);
 	}
 }

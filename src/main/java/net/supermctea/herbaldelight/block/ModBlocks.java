@@ -9,6 +9,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.supermctea.herbaldelight.HerbalDelight;
 import net.supermctea.herbaldelight.block.custom.BlackTeaCropBlock;
@@ -16,6 +17,7 @@ import net.supermctea.herbaldelight.block.custom.GreenTeaCropBlock;
 import net.supermctea.herbaldelight.block.custom.HibiscusTeaCropBlock;
 
 public class ModBlocks {
+    // Raw Leaf Blocks
     public static final Block GREEN_TEA_BLOCK = registerBlock("green_tea_block",
             new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.DARK_GREEN).burnable()));
     public static final Block BLACK_TEA_BLOCK = registerBlock("black_tea_block",
@@ -23,6 +25,23 @@ public class ModBlocks {
     public static final Block HIBISCUS_TEA_BLOCK = registerBlock("hibiscus_tea_block",
             new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.DARK_CRIMSON).burnable()));
 
+    // Dried Leaf Blocks (decoration mostly)
+    public static final Block DRIED_GREEN_TEA_BLOCK = registerBlock("dried_green_tea_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.DARK_GREEN).burnable()));
+    public static final Block DRIED_BLACK_TEA_BLOCK = registerBlock("dried_black_tea_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.BLACK).burnable()));
+    public static final Block DRIED_HIBISCUS_TEA_BLOCK = registerBlock("dried_hibiscus_tea_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.DARK_CRIMSON).burnable()));
+
+    // Baked Leaf Blocks
+    public static final Block BAKED_GREEN_TEA_BLOCK = registerBlock("baked_green_tea_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE).mapColor(MapColor.DARK_GREEN)));
+    public static final Block BAKED_BLACK_TEA_BLOCK = registerBlock("baked_black_tea_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE).mapColor(MapColor.BLACK)));
+    public static final Block BAKED_HIBISCUS_TEA_BLOCK = registerBlock("baked_hibiscus_tea_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE).mapColor(MapColor.DARK_CRIMSON)));
+
+    // Crops
     public static final Block GREEN_TEA_CROP = Registry.register(Registries.BLOCK, new Identifier(HerbalDelight.MOD_ID, "green_tea_crop"),
             new GreenTeaCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
     public static final Block BLACK_TEA_CROP = Registry.register(Registries.BLOCK, new Identifier(HerbalDelight.MOD_ID, "black_tea_crop"),

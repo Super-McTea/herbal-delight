@@ -3,19 +3,30 @@
 
   "item.herbaldelight.green_tea_cup": "Cup of Green Tea",
   "item.herbaldelight.green_tea_leaf": "Green Tea Leaves",
+  "item.herbaldelight.dried_green_tea_leaf": "Dried Green Tea Leaves",
   "item.herbaldelight.green_tea_seeds": "Green Tea Plant Seeds",
 
   "item.herbaldelight.black_tea_cup": "Cup of Black Tea",
   "item.herbaldelight.black_tea_leaf": "Black Tea Leaves",
+  "item.herbaldelight.dried_black_tea_leaf": "Dried Black Tea Leaves",
   "item.herbaldelight.black_tea_seeds": "Black Tea Plant Seeds",
 
   "item.herbaldelight.hibiscus_tea_cup": "Cup of Hibiscus Tea",
   "item.herbaldelight.hibiscus_tea_leaf": "Hibiscus Flowers",
+  "item.herbaldelight.dried_hibiscus_tea_leaf": "Dried Hibiscus Flowers",
   "item.herbaldelight.hibiscus_tea_seeds": "Hibiscus Seeds",
 
   "block.herbaldelight.green_tea_block": "Block of Green Tea Leaves",
   "block.herbaldelight.black_tea_block": "Block of Black Tea Leaves",
   "block.herbaldelight.hibiscus_tea_block": "Block of Hibiscus Flowers",
+
+  "block.herbaldelight.dried_green_tea_block": "Block of Dried Green Tea Leaves",
+  "block.herbaldelight.dried_black_tea_block": "Block of Dried Black Tea Leaves",
+  "block.herbaldelight.dried_hibiscus_tea_block": "Block of Dried Hibiscus Flowers",
+
+  "block.herbaldelight.baked_green_tea_block": "Baked Green Tea Leaves",
+  "block.herbaldelight.baked_black_tea_block": "Baked Black Tea Leaves",
+  "block.herbaldelight.baked_hibiscus_tea_block": "Baked Hibiscus Flowers",
 
   "itemgroup.tea": "Herbal Delight - Working Title!!!"
 }
