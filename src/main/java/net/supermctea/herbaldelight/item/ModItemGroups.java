@@ -63,16 +63,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BAKED_HIBISCUS_TEA_SLAB);
 
                         entries.add(ModBlocks.BAKED_GREEN_TEA_BRICKS);
-                        entries.add(ModBlocks.BAKED_GREEN_TEA_BRICK_SLAB);
                         entries.add(ModBlocks.BAKED_GREEN_TEA_BRICK_STAIRS);
+                        entries.add(ModBlocks.BAKED_GREEN_TEA_BRICK_SLAB);
 
                         entries.add(ModBlocks.BAKED_BLACK_TEA_BRICKS);
-                        entries.add(ModBlocks.BAKED_BLACK_TEA_BRICK_SLAB);
                         entries.add(ModBlocks.BAKED_BLACK_TEA_BRICK_STAIRS);
+                        entries.add(ModBlocks.BAKED_BLACK_TEA_BRICK_SLAB);
 
                         entries.add(ModBlocks.BAKED_HIBISCUS_TEA_BRICKS);
-                        entries.add(ModBlocks.BAKED_HIBISCUS_TEA_BRICK_SLAB);
                         entries.add(ModBlocks.BAKED_HIBISCUS_TEA_BRICK_STAIRS);
+                        entries.add(ModBlocks.BAKED_HIBISCUS_TEA_BRICK_SLAB);
 
                     })).build());
     public static void registerItemGroups() {

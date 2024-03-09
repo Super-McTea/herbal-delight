@@ -18,21 +18,21 @@ public class ModBlocks {
     public static final Block GREEN_TEA_BLOCK = registerBlock("green_tea_block",
             new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.DARK_AQUA).burnable()));
     public static final Block BLACK_TEA_BLOCK = registerBlock("black_tea_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.BLACK).burnable()));
+            new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.TERRACOTTA_GRAY).burnable()));
     public static final Block HIBISCUS_TEA_BLOCK = registerBlock("hibiscus_tea_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.DARK_CRIMSON).burnable()));
+            new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.RED).burnable()));
 
     // Dried Leaf Blocks (decoration mostly)
     public static final Block DRIED_GREEN_TEA_BLOCK = registerBlock("dried_green_tea_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.DARK_AQUA).burnable()));
+            new HayBlock(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.PALE_GREEN).burnable()));
     public static final Block DRIED_BLACK_TEA_BLOCK = registerBlock("dried_black_tea_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.BLACK).burnable()));
+            new HayBlock(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.DARK_GREEN).burnable()));
     public static final Block DRIED_HIBISCUS_TEA_BLOCK = registerBlock("dried_hibiscus_tea_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.DARK_CRIMSON).burnable()));
+            new HayBlock(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).mapColor(MapColor.TERRACOTTA_RED).burnable()));
 
     // Baked Leaf Blocks
     public static final Block BAKED_GREEN_TEA_BLOCK = registerBlock("baked_green_tea_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE).mapColor(MapColor.DARK_AQUA)));
+            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE).mapColor(MapColor.TEAL)));
     public static final Block BAKED_BLACK_TEA_BLOCK = registerBlock("baked_black_tea_block",
             new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE).mapColor(MapColor.BLACK)));
     public static final Block BAKED_HIBISCUS_TEA_BLOCK = registerBlock("baked_hibiscus_tea_block",
@@ -52,11 +52,11 @@ public class ModBlocks {
 
     // Baked Bricks
     public static final Block BAKED_GREEN_TEA_BRICKS = registerBlock("baked_green_tea_bricks",
-            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE).mapColor(MapColor.DARK_AQUA)));
+            new Block(FabricBlockSettings.copyOf(ModBlocks.BAKED_GREEN_TEA_BLOCK)));
     public static final Block BAKED_BLACK_TEA_BRICKS = registerBlock("baked_black_tea_bricks",
-            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE).mapColor(MapColor.BLACK)));
+            new Block(FabricBlockSettings.copyOf(ModBlocks.BAKED_BLACK_TEA_BLOCK)));
     public static final Block BAKED_HIBISCUS_TEA_BRICKS = registerBlock("baked_hibiscus_tea_bricks",
-            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE).mapColor(MapColor.DARK_CRIMSON)));
+            new Block(FabricBlockSettings.copyOf(ModBlocks.BAKED_HIBISCUS_TEA_BLOCK)));
     public static final Block BAKED_GREEN_TEA_BRICK_SLAB = registerBlock("baked_green_tea_brick_slab",
             new SlabBlock(FabricBlockSettings.copyOf(BAKED_GREEN_TEA_BRICKS)));
     public static final Block BAKED_BLACK_TEA_BRICK_SLAB = registerBlock("baked_black_tea_brick_slab",

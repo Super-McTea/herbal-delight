@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "herbaldelight:block/dried/green_tea_block_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "herbaldelight:block/dried/green_tea_block"
+    },
+    "axis=z": {
+      "model": "herbaldelight:block/dried/green_tea_block_horizontal",
+      "x": 90
     }
   }
 }
