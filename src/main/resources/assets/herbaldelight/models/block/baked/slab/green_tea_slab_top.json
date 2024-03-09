@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "herbaldelight:block/baked_green_tea_block",
+    "side": "herbaldelight:block/baked_green_tea_slab",
+    "top": "herbaldelight:block/baked_green_tea_block"
+  }
+}

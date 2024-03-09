@@ -51,8 +51,28 @@ public class ModItemGroups {
 
                         // Baked Leaf Blocks
                         entries.add(ModBlocks.BAKED_GREEN_TEA_BLOCK);
+                        entries.add(ModBlocks.BAKED_GREEN_TEA_STAIRS);
+                        entries.add(ModBlocks.BAKED_GREEN_TEA_SLAB);
+
                         entries.add(ModBlocks.BAKED_BLACK_TEA_BLOCK);
+                        entries.add(ModBlocks.BAKED_BLACK_TEA_STAIRS);
+                        entries.add(ModBlocks.BAKED_BLACK_TEA_SLAB);
+
                         entries.add(ModBlocks.BAKED_HIBISCUS_TEA_BLOCK);
+                        entries.add(ModBlocks.BAKED_HIBISCUS_TEA_STAIRS);
+                        entries.add(ModBlocks.BAKED_HIBISCUS_TEA_SLAB);
+
+                        entries.add(ModBlocks.BAKED_GREEN_TEA_BRICKS);
+                        entries.add(ModBlocks.BAKED_GREEN_TEA_BRICK_SLAB);
+                        entries.add(ModBlocks.BAKED_GREEN_TEA_BRICK_STAIRS);
+
+                        entries.add(ModBlocks.BAKED_BLACK_TEA_BRICKS);
+                        entries.add(ModBlocks.BAKED_BLACK_TEA_BRICK_SLAB);
+                        entries.add(ModBlocks.BAKED_BLACK_TEA_BRICK_STAIRS);
+
+                        entries.add(ModBlocks.BAKED_HIBISCUS_TEA_BRICKS);
+                        entries.add(ModBlocks.BAKED_HIBISCUS_TEA_BRICK_SLAB);
+                        entries.add(ModBlocks.BAKED_HIBISCUS_TEA_BRICK_STAIRS);
 
                     })).build());
     public static void registerItemGroups() {

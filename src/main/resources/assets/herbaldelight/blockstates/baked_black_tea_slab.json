@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "herbaldelight:block/baked/slab/black_tea_slab"
+    },
+    "type=double": {
+      "model": "herbaldelight:block/baked/slab/black_tea_slab_double"
+    },
+    "type=top": {
+      "model": "herbaldelight:block/baked/slab/black_tea_slab_top"
+    }
+  }
+}

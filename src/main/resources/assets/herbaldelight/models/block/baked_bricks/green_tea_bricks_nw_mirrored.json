@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_north_west_mirrored_all",
+  "textures": {
+    "all": "herbaldelight:block/baked_green_tea_bricks"
+  }
+}

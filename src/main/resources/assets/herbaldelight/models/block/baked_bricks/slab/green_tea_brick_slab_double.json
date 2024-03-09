@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "herbaldelight:block/baked_green_tea_bricks",
+    "side": "herbaldelight:block/baked_green_tea_bricks"
+  }
+}
