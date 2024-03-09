@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "herbaldelight:baked_black_tea_block"
+  },
+  "result": "herbaldelight:baked_black_tea_bricks"
+}

@@ -37,16 +37,16 @@
   "block.herbaldelight.baked_hibiscus_tea_stairs": "Baked Hibiscus Flowers Stairs",
 
   "block.herbaldelight.baked_green_tea_bricks": "Baked Green Tea Leaf Bricks",
-  "block.herbaldelight.baked_green_tea_bricks_slab": "Baked Green Tea Leaf Brick Slab",
-  "block.herbaldelight.baked_green_tea_bricks_stairs": "Baked Green Tea Leaf Brick Stairs",
+  "block.herbaldelight.baked_green_tea_brick_slab": "Baked Green Tea Leaf Brick Slab",
+  "block.herbaldelight.baked_green_tea_brick_stairs": "Baked Green Tea Leaf Brick Stairs",
 
   "block.herbaldelight.baked_black_tea_bricks": "Baked Black Tea Leaf Bricks",
-  "block.herbaldelight.baked_black_tea_bricks_slab": "Baked Black Tea Leaf Brick Slab",
-  "block.herbaldelight.baked_black_tea_bricks_stairs": "Baked Black Tea Leaf Brick Stairs",
+  "block.herbaldelight.baked_black_tea_brick_slab": "Baked Black Tea Leaf Brick Slab",
+  "block.herbaldelight.baked_black_tea_brick_stairs": "Baked Black Tea Leaf Brick Stairs",
 
   "block.herbaldelight.baked_hibiscus_tea_bricks": "Baked Hibiscus Flower Bricks",
-  "block.herbaldelight.baked_hibiscus_tea_bricks_slab": "Baked Hibiscus Flower Brick Slab",
-  "block.herbaldelight.baked_hibiscus_tea_bricks_stairs": "Baked Hibiscus Flower Brick Stairs",
+  "block.herbaldelight.baked_hibiscus_tea_brick_slab": "Baked Hibiscus Flower Brick Slab",
+  "block.herbaldelight.baked_hibiscus_tea_brick_stairs": "Baked Hibiscus Flower Brick Stairs",
 
 
   "itemgroup.tea": "Herbal Delight - Working Title!!!"

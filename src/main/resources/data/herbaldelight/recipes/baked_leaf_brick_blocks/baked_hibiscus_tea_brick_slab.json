@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "herbaldelight:baked_black_tea_bricks"
+      "item": "herbaldelight:baked_hibiscus_tea_bricks"
     }
   },
   "pattern": [
@@ -11,7 +11,7 @@
   ],
   "result": {
     "count": 6,
-    "item": "herbaldelight:baked_black_tea_brick_slab"
+    "item": "herbaldelight:baked_hibiscus_tea_brick_slab"
   },
   "show_notification": true
 }

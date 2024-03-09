@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "herbaldelight:dried_hibiscus_tea_block"
+  },
+  "result": "herbaldelight:baked_hibiscus_tea_block"
+}
