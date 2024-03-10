@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_hibiscus_block": {
+    "has_black_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "herbaldelight:baked_hibiscus_tea_block"
+              "herbaldelight:baked_black_tea_block"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "herbaldelight:baked_leaf_blocks/baked_hibiscus_tea_slab"
+        "recipe": "herbaldelight:baked_leaf_brick_blocks/baked_black_tea_brick_stairs"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_hibiscus_block",
+      "has_black_block",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "herbaldelight:baked_leaf_blocks/baked_hibiscus_tea_slab"
+      "herbaldelight:baked_leaf_brick_blocks/baked_black_tea_brick_stairs"
     ]
   },
   "sends_telemetry_event": false
