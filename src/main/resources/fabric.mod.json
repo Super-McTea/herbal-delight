@@ -3,7 +3,7 @@
 	"id": "herbaldelight",
 	"version": "${version}",
 	"name": "Herbal Delight",
-	"description": "A simple extension for Farmer's Delight which adds various teas and their recipes!",
+	"description": "a.k.a McTea's Teas\nA simple extension for Farmer's Delight which adds various teas and their recipes!",
 	"authors": [
 		"Super McTea"
 	],
