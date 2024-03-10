@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_black_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "herbaldelight:baked_black_tea_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "herbaldelight:baked_leaf_blocks/baked_black_tea_stairs_from_baked_block_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_black_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "herbaldelight:baked_leaf_blocks/baked_black_tea_stairs_from_baked_block_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

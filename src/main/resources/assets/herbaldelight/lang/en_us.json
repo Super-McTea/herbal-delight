@@ -16,6 +16,10 @@
   "item.herbaldelight.dried_hibiscus_tea_leaf": "Dried Hibiscus Flowers",
   "item.herbaldelight.hibiscus_tea_seeds": "Hibiscus Seeds",
 
+  "block.herbaldelight.green_tea_crop": "Green Tea Plant",
+  "block.herbaldelight.black_tea_crop": "Black Tea Plant",
+  "block.herbaldelight.hibiscus_tea_crop": "Hibiscus Tea Plant",
+
   "block.herbaldelight.green_tea_block": "Block of Green Tea Leaves",
   "block.herbaldelight.black_tea_block": "Block of Black Tea Leaves",
   "block.herbaldelight.hibiscus_tea_block": "Block of Hibiscus Flowers",

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "herbaldelight:hibiscus_tea_leaf"
+    }
+  ],
+  "result": {
+    "item": "herbaldelight:hibiscus_tea_seeds"
+  }
+}

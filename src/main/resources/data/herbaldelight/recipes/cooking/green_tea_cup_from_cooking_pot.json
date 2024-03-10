@@ -5,10 +5,9 @@
     {
       "item": "minecraft:sugar"
     },
-    [
-      {"item": "herbaldelight:dried_green_tea_leaf"},
-      {"item": "minecraft:wheat_seeds"}
-    ]
+    {
+      "item": "herbaldelight:dried_green_tea_leaf"
+    }
   ],
   "result": {
     "item": "herbaldelight:green_tea_cup"

@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/stem_growth3",
+  "parent": "herbaldelight:block/untinted_stem",
   "textures": {
-    "stem": "herbaldelight:block/black_tea_crop"
+    "stem": "herbaldelight:block/black_tea_crop_stage2"
   }
 }
