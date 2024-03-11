@@ -33,7 +33,7 @@ public class ModLootTableModifiers {
         );
 
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
-            Identifier injectId = new Identifier(HerbalDelight.MOD_ID, "inject/" + id.getPath());
+            Identifier injectId = new Identifier(HerbalDelight.MOD_ID, "put_into_base_game/" + id.getPath());
 
             if (addItemLootBlockIdList.contains(id)) {
                 tableBuilder.pool(LootPool.builder().with(LootTableEntry.builder(injectId)).build());
