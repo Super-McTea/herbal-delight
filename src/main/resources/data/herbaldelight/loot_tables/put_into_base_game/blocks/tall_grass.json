@@ -75,18 +75,8 @@
           }
         },
         {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:large_fern",
-            "properties": {
-              "half": "upper"
-            }
-          }
-        },
-        {
           "condition": "minecraft:random_chance",
-          "chance": 0.125
+          "chance": 0.2
         }
       ]
     }

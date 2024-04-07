@@ -21,15 +21,15 @@ public class ModLootTableModifiers {
             new Identifier("minecraft","blocks/grass");
     private static final Identifier TALL_GRASS_ID =
             new Identifier("minecraft", "blocks/tall_grass");
-    private static final Identifier TALL_FERN_ID =
-            new Identifier("minecraft", "blocks/tall_fern");
+    private static final Identifier LARGE_FERN_ID =
+            new Identifier("minecraft", "blocks/large_fern");
     private static final Identifier DEAD_BUSH_ID =
             new Identifier("minecraft", "blocks/dead_bush");
 
     public static void registerLootTable() {
         Set<Identifier> addItemLootBlockIdList = Set.of(
                 TALL_GRASS_ID,
-                TALL_FERN_ID
+                LARGE_FERN_ID
         );
 
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {

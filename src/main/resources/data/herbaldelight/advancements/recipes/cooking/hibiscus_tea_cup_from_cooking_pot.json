@@ -8,9 +8,7 @@
             "items": [
               "herbaldelight:dried_hibiscus_tea_leaf",
               "minecraft:sugar",
-              {
-                "tag": "#c:milk"
-              }
+              "minecraft:milk_bucket"
             ]
           }
         ]
