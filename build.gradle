@@ -21,16 +21,6 @@ repositories {
 	maven { url 'https://maven.jamieswhiteshirt.com/libs-release' }
 	maven { url 'https://mvn.devos.one/releases/' }
 
-	exclusiveContent {
-		forRepository {
-			maven {
-				url 'https://cursemaven.com'
-			}
-		}
-		filter {
-			includeGroup 'curse.maven'
-		}
-	}
 }
 
 fabricApi {
@@ -46,7 +36,7 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modImplementation "vectorwing:FarmersDelight-Refabricated:${project.delight_version}"
+	modImplementation "vectorwing:FarmersDelight:${project.delight_version}"
 	
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
